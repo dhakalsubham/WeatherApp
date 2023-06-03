@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <!--  Title of dialog for location permissions  -->
+    <string name="title_location_permission">Location Permission</string>
+</resources>

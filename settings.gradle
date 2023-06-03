@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "WeatherApp"
+include ':app'
+include ':feature:weather:data'
+include ':feature:weather:domain'
+include ':feature:weather:ui'
+include ':feature:weather_details:data'
+include ':feature:weather_details:domain'
+include ':feature:weather_details:ui'
+include ':core:network'
+include ':core:common'
+include ':core:feature_api'
